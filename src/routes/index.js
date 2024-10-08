@@ -3,5 +3,5 @@ const routerCountry = require('./country.router');
 const router = express.Router();
 
 // colocar las rutas aquí
-router.use('/country', routerCountry)
+router.use('/countries', routerCountry)
 module.exports = router;
