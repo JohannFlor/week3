@@ -7,7 +7,7 @@ const City = sequelize.define('City', {
         allowNull: false
     },
     area: {
-        type: DataTypes.STRING,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
     isCapital: {
